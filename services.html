@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Services</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body style="background-color:cadetblue;">
+        <header>
+            
+            <div class="navbar">
+                <div class="hotelname">
+            
+                </div>
+                <nav class="menu">
+                    
+        
+                    <a href="index.html">Home</a>
+                    <a href="services.html" style="display: none;" >Services</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="about.html">About</a>
+                    
+                </nav>
+            </div>
+        </header>
+    
+
+<div class="container">
+    <!-- Section 1: Our Services -->
+    <section id="our-services">
+        <h2>Our Services</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <img src="room.jpg" alt="room">
+                <h3>Room Service</h3>
+                <p>Enjoy 24/7 in-room dining with a variety of local and international dishes.</p>
+            </div>
+            <div class="service-item">
+                <img src="conc.jpg" alt="Concierge">
+                <h3>Concierge</h3>
+                <p>Our concierge team is here to assist with bookings, tours, and local recommendations.</p>
+            </div>
+            <div class="service-item">
+                <img src="shuttle.jpg" alt="Shuttle">
+                <h3>Shuttle Service</h3>
+                <p>We offer complimentary airport shuttle services for your convenience.</p>
+            </div>
+            <div class="service-item">
+                <img src="eventt.jpg" alt="Event">
+                <h3>Event Planning</h3>
+                <p>Plan your perfect wedding, conference, or event with our dedicated team.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Booking Form -->
+    <section id="booking">
+        <h2>Book a Service</h2>
+        <form action="/submit-booking" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="room-service">Room Service</option>
+                <option value="concierge">Concierge</option>
+                <option value="shuttle">Shuttle Service</option>
+                <option value="event-planning">Event Planning</option>
+            </select>
+            
+            <label for="date">Booking Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time">
+            
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+</div>
+<footer>
+    <p>&copy; 2021 Finesse Hotel . All rights reserved.</p>
+</footer>
+<script src="page1.js"></script>
+</div>
+
+</body>
+</html>

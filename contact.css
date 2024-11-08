@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(image.jpg);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.826);
+    padding: 10px 20px;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    z-index: 1000;
+}
+.hotelname h1{
+
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+
+/* Contact Us Section 1: Contact Information */
+.contact-info-section {
+    padding: 100px 20px; /* Adjusted for fixed navbar */
+    text-align: center;
+    margin-top: 60px; /* Adjust for fixed navbar */
+}
+
+.contact-info-section h2 {
+    font-size: 36px;
+    color:cyan;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.contact-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.contact-item i {
+    font-size: 20px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+    color:black;
+    line-height: 1.6;
+}
+.contact-us h2{
+    font-size: 36px;
+    color:darksalmon;
+    margin-bottom: 30px;
+}
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Changes color on hover */
+  }
+
+
+/* Contact Form Section */
+.contact-form-section {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2 {
+    text-align: center;
+    font-size: 24px;
+    color:darkcyan;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact-form-section form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-form-section input[type="text"],
+.contact-form-section input[type="email"],
+.contact-form-section textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form-section input[type="text"]:focus,
+.contact-form-section input[type="email"]:focus,
+.contact-form-section textarea:focus {
+    border-color: #007bff; /* Focus color */
+}
+
+.contact-form-section textarea {
+    resize: vertical; /* Allow resizing vertically */
+    min-height: 100px;
+}
+
+.contact-form-section button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:gray; /* Button background color */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.contact-form-section button:hover {
+    background-color: #0056b3; /* Hover color */
+}
+
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.hidden{
+    display:none;
+}
